@@ -1,0 +1,37 @@
+# requirements.txt for AI-Driven Cybersecurity Threat Intelligence Platform
+# Generated on April 10, 2025
+
+# Web framework and API
+fastapi>=0.95.2  # For API endpoints
+uvicorn>=0.22.0  # ASGI server for running FastAPI
+
+# MongoDB integration
+pymongo>=4.3.3   # For threat storage and management
+
+# HTTP and data processing
+requests>=2.32.3  # For making HTTP requests
+pydantic>=2.0.0   # Data validation
+
+# Authentication and security
+bcrypt>=4.0.1    # Password hashing
+python-jose[cryptography]>=3.3.0  # JWT token generation
+
+# Data manipulation
+pandas>=2.0.1    # Data analysis and processing
+
+# Machine Learning (optional, based on project scope)
+scikit-learn>=1.2.2
+tensorflow>=2.12.0
+
+# Threat Intelligence APIs
+virustotal-api>=0.7.0  # Official VirusTotal API wrapper
+OTX-Python-SDK @ git+[https://github.com/AlienVault-OTX/OTX-Python-SDK.git](https://github.com/AlienVault-OTX/OTX-Python-SDK.git)  # Direct GitHub source
+
+# Logging and monitoring
+loguru>=0.7.0    # Advanced logging
+prometheus-client>=0.16.0  # Metrics and monitoring
+
+# Development and testing
+pytest>=7.3.1
+black>=23.3.0    # Code formatting
+mypy>=1.3.0      # Static type checking
