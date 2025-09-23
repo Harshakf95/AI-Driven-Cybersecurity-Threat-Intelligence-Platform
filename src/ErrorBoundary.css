@@ -1,0 +1,31 @@
+.error-boundary {
+  padding: 20px;
+  color: white;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.error-boundary h1 {
+  margin-bottom: 20px;
+}
+
+.error-boundary pre {
+  color: #ff6b6b;
+  background-color: #2d2d2d;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 80%;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+.error-boundary p {
+  margin-top: 20px;
+  color: #a0a0a0;
+}
